@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './Form';
 
 const Results = props => {
     const {firstName, lastName, email, password, confirmPassword} = props.data; 
